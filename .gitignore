@@ -1,0 +1,7 @@
+test/target/
+test/releng/parent/target
+test/releng/target/target
+test/bin/
+*.class
+test/releng/parent/.mvn/wrapper/maven-wrapper.jar
+.m2_test/

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<?xml-model href="https://github.com/eclipse-pde/eclipse.pde/blob/master/ui/org.eclipse.pde.core/schema/targets.exsd"?><target name="test.target.target">
+	<locations>
+		<!-- No error in UI as the repository is explicitely re-specified below -->
+		<!-- Error in the UI Definition view -->
+		<location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+			<dependencies>
+				<dependency>
+					<groupId>edu.ucar</groupId>
+					<artifactId>cdm</artifactId>
+					<version>5.1.0</version>
+					<type>jar</type>
+				</dependency>
+			</dependencies>
+			<repositories>
+				<repository>
+					<id>unidata-all</id>
+					<url>https://artifacts.unidata.ucar.edu/repository/unidata-all/</url>
+				</repository>
+			</repositories>
+		</location>
+		<location includeDependencyDepth="none" includeDependencyScopes="compile" includeSource="true" missingManifest="generate" type="Maven">
+			<dependencies>
+				<dependency>
+					<groupId>edu.ucar</groupId>
+					<artifactId>d4lib</artifactId>
+					<version>5.5.3</version>
+					<type>jar</type>
+				</dependency>
+			</dependencies>
+			<repositories>
+				<repository>
+					<id>unidata-all</id>
+					<url>https://artifacts.unidata.ucar.edu/repository/unidata-all/</url>
+				</repository>
+			</repositories>
+		</location>
+	</locations>
+</target>

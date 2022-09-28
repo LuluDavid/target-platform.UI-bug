@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: test
+Bundle-SymbolicName: test
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: test
+Require-Bundle: wrapped.edu.ucar.cdm;bundle-version="5.0.0",
+ wrapped.edu.ucar.d4lib;bundle-version="5.5.3"
